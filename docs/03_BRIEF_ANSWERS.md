@@ -11,7 +11,7 @@ Source: `AI Engineer Question.docx`. All answers below are real outputs of this 
 |---|---|
 | "Answers must come from our KB, and tell us which article they came from." | Only current, verified articles are indexed. The model sees only the retrieved articles and must cite from an enum of their ids. Every citation needs a verbatim quote verified against the article. Hosts, numbers and codes in the answer must appear in the cited text. |
 | "If the KB doesn't cover it, say so and suggest raising a ticket. Don't make things up." | A calibrated relevance gate abstains before any LLM call. The model can abstain too. Any validation failure abstains. The abstain text is fixed by the backend: *"I couldn't find this in the Vectra IT knowledge base, so I won't guess. Please raise a ticket with the IT Service Desk and an agent will help you."* |
-| "This goes live to 3,000 staff. It has to be safe." | Defence in depth: allowlisted ingestion, PII masking, injection guard, no tools, strict schema, output guard, code-enforced escalation, JWT + RBAC, rate limits, audit log. See `01_ARCHITECTURE_DECISIONS.md` §7. |
+| "This goes live to 3,000 staff. It has to be safe." | Defence in depth: allowlisted ingestion, PII masking, injection guard, no tools, strict schema, output guard, code-enforced escalation, JWT + RBAC, rate limits, audit log. See the security sections of `README.md`. |
 
 ---
 

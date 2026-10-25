@@ -40,3 +40,8 @@ desktop.ini
 .vscode/
 .idea/
 ~$*
+
+# --- Personal reference docs (kept locally, not part of the submission) ---
+docs/01_ARCHITECTURE_DECISIONS.md
+docs/02_PGVECTOR_GUIDE.md
+docs/05_STUDY_GUIDE_AND_MOCK_QUESTIONS.md

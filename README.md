@@ -14,11 +14,8 @@ answer("What is the resolution target for a P2 ticket?")
 
 | Doc | Contents |
 |---|---|
-| [docs/01_ARCHITECTURE_DECISIONS.md](docs/01_ARCHITECTURE_DECISIONS.md) | Architecture, 18 ADRs (incl. conversation memory and shared state), backend walkthrough, KB sabotage handling, security model, provider switching, scaling to 3,000 staff, known issues |
-| [docs/02_PGVECTOR_GUIDE.md](docs/02_PGVECTOR_GUIDE.md) | How pgvector works, mapped to Pinecone/Qdrant concepts, our schema and queries, hands-on SQL |
 | [docs/03_BRIEF_ANSWERS.md](docs/03_BRIEF_ANSWERS.md) | Every question in the brief answered, with real outputs |
 | [docs/04_RUNBOOK.md](docs/04_RUNBOOK.md) | Commands to run the DB, backend and frontend by hand, switching to OpenAI, troubleshooting |
-| [docs/05_STUDY_GUIDE_AND_MOCK_QUESTIONS.md](docs/05_STUDY_GUIDE_AND_MOCK_QUESTIONS.md) | Cheat sheet of key numbers plus ~90 mock interview questions with hidden model answers, by topic |
 
 ## Quick start
 
