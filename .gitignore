@@ -1,0 +1,42 @@
+# Vectra IT KB Assistant: one repo for backend (FastAPI) + frontend (React/Vite)
+
+# --- Secrets: never commit. Templates (.env.example) are committed. ---
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+backend/.demo_credentials.txt
+CREDENTIALS.md
+
+# --- Submission artefacts (zip + PDF manual are handed over separately) ---
+/submission/
+*.zip
+
+# --- Python / backend ---
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/.cache/
+backend/logs/
+backend/eval/results_*.json
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+dist/
+build/
+*.local
+npm-debug.log*
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+~$*
